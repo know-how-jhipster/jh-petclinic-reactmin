@@ -46,6 +46,16 @@ public class CacheConfiguration {
             createCache(cm, org.ujar.jh.petclinic.reactmin.domain.User.class.getName());
             createCache(cm, org.ujar.jh.petclinic.reactmin.domain.Authority.class.getName());
             createCache(cm, org.ujar.jh.petclinic.reactmin.domain.User.class.getName() + ".authorities");
+            createCache(cm, org.ujar.jh.petclinic.reactmin.domain.Vets.class.getName());
+            createCache(cm, org.ujar.jh.petclinic.reactmin.domain.Vets.class.getName() + ".specialties");
+            createCache(cm, org.ujar.jh.petclinic.reactmin.domain.Specialties.class.getName());
+            createCache(cm, org.ujar.jh.petclinic.reactmin.domain.Specialties.class.getName() + ".vets");
+            createCache(cm, org.ujar.jh.petclinic.reactmin.domain.Types.class.getName());
+            createCache(cm, org.ujar.jh.petclinic.reactmin.domain.Owners.class.getName());
+            createCache(cm, org.ujar.jh.petclinic.reactmin.domain.Owners.class.getName() + ".pets");
+            createCache(cm, org.ujar.jh.petclinic.reactmin.domain.Pets.class.getName());
+            createCache(cm, org.ujar.jh.petclinic.reactmin.domain.Pets.class.getName() + ".visits");
+            createCache(cm, org.ujar.jh.petclinic.reactmin.domain.Visits.class.getName());
             // jhipster-needle-caffeine-add-entry
         };
     }
