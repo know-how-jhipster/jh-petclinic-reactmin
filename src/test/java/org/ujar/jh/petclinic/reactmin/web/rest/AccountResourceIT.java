@@ -263,8 +263,8 @@ class AccountResourceIT {
 
         Optional<User> testUser = userRepository.findOneByEmailIgnoreCase("alice2@example.com");
         assertThat(testUser).isPresent();
-        testUser.get().setActivated(true);
-        userRepository.save(testUser.get());
+        testUser.orElseThrow().setActivated(true);
+        userRepository.save(testUser.orElseThrow());
 
         // Second (already activated) user
         restAccountMockMvc
