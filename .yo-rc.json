@@ -33,7 +33,7 @@
     "microfrontends": [],
     "nativeLanguage": "en",
     "otherModules": [],
-    "packageName": "org.ujar.jh.petclinic.reactmin",
+    "packageName": "dev.knowhowto.jh.petclinic.reactmin",
     "pages": [],
     "prodDatabaseType": "postgresql",
     "reactive": false,
