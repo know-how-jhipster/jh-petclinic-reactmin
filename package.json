@@ -1,5 +1,5 @@
 {
-  "name": "jh-reactmin-petclinic",
+  "name": "@know-how-jhipster/jh-reactmin-petclinic",
   "version": "23.0.0-SNAPSHOT",
   "private": true,
   "description": "Description for petclinic",
